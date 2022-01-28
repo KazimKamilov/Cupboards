@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{ab29d607-214d-4ac4-bdd1-89e0e6503e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{0f0f4280-41c8-46fb-a6e4-e50da8a1ca20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{8abbb9f5-8f85-4794-b197-f5acd98b21b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Framework\Window.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\gl3w.c">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Shader.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Field.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Checker.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MiniField.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\ConfigFile.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\CellTree.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Framework\Window.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Framework\Shader.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Framework\OpenGLErrorCheck.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Game\Game.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Game\Field.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Game\Checker.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Game\MiniField.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Game\ConfigFile.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Framework\Utils.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Game\CellTree.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Cupboards.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
